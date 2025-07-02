@@ -2,12 +2,12 @@ import { Fragment } from "react";
 
 import { StatusBar } from "expo-status-bar";
 
-import { Home } from "./screens/Home";
+import { Product } from "./screens/Product";
 
 export function App() {
   return (
     <Fragment>
-      <Home />
+      <Product />
       <StatusBar style="auto" />
     </Fragment>
   );
