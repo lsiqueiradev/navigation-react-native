@@ -2,6 +2,12 @@
   "expo": {
     "name": "navigation-react-native",
     "slug": "navigation-react-native",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "android": {
+      "package": "com.anonymous.navigationreactnative"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.navigationreactnative"
+    }
   }
 }
