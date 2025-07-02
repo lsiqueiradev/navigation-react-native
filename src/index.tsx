@@ -1,14 +1,11 @@
 import { Fragment } from "react";
 
-import { StatusBar } from "expo-status-bar";
-
-import { Product } from "./screens/Product";
+import { Routes } from "@/routes";
 
 export function App() {
   return (
     <Fragment>
-      <Product />
-      <StatusBar style="auto" />
+      <Routes />
     </Fragment>
   );
 }
