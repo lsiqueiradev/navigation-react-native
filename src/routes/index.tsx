@@ -1,10 +1,10 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { StackRoutes } from "./StackRoutes";
+import { TabsRoutes } from "./TabsRoutes";
 
 export function Routes() {
   return (
     <NavigationContainer>
-      <StackRoutes />
+      <TabsRoutes />
     </NavigationContainer>
   );
 }
